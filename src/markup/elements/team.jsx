@@ -77,11 +77,11 @@ class TeamSection extends Component {
               ))}
             </div>
           </div>
-          <img className="pt-img1 animate1" src={ptImg1} alt="" />
+          {/* <img className="pt-img1 animate1" src={ptImg1} alt="" />
           <img className="pt-img2 animate2" src={ptImg2} alt="" />
           <img className="pt-img3 animate-rotate" src={ptImg3} alt="" />
           <img className="pt-img4 animate-wave" src={ptImg4} alt="" />
-          <img className="pt-img5 animate-wave" src={ptImg5} alt="" />
+          <img className="pt-img5 animate-wave" src={ptImg5} alt="" /> */}
         </section>
       </>
     );

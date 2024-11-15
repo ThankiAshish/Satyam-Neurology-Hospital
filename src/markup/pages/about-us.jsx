@@ -6,7 +6,7 @@ import AboutSection from "../elements/about";
 import LatestNewsSection from "../elements/latest-news-slider";
 import FeatureSection3 from "../elements/feature-section3";
 import TeamSection from "../elements/team";
-import TestimonialSection from "../elements/testimonial";
+// import TestimonialSection from "../elements/testimonial";
 import EligibilitySection from "../elements/eligibility";
 
 // Import Images
@@ -68,7 +68,7 @@ class AboutUs extends Component {
 
           <TeamSection />
 
-          <TestimonialSection />
+          {/* <TestimonialSection /> */}
         </div>
       </>
     );

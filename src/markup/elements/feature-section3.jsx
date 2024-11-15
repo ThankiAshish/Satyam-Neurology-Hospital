@@ -9,41 +9,37 @@ class LatestNewsSection extends Component {
             <div className="row">
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
-                  <h2 className="counter text-secondary">10</h2>
+                  <h2 className="counter text-secondary">10+</h2>
                   <h5 className="ttr-title">Years With You</h5>
                   <p>
-                    Etiam ante ante, molestie vitae cursus ac, pharetra euismod
-                    libero.
+                  With over a decade of dedicated service in neurology, our hospital has been a trusted provider of neurological care.
                   </p>
                 </div>
               </div>
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
-                  <h2 className="counter text-secondary">400</h2>
+                  <h2 className="counter text-secondary">5+</h2>
                   <h5 className="ttr-title">Awards</h5>
                   <p>
-                    Etiam ante ante, molestie vitae cursus ac, pharetra euismod
-                    libero.
+                  Our expertise and excellence in neurological treatment have been recognized with multiple awards.
                   </p>
                 </div>
               </div>
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
-                  <h2 className="counter text-secondary">250</h2>
+                  <h2 className="counter text-secondary">2</h2>
                   <h5 className="ttr-title">Doctors</h5>
                   <p>
-                    Etiam ante ante, molestie vitae cursus ac, pharetra euismod
-                    libero.
+                  Our team includes highly qualified neurologists who bring extensive experience and specialized knowledge. 
                   </p>
                 </div>
               </div>
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
-                  <h2 className="counter text-secondary">800</h2>
+                  <h2 className="counter text-secondary">100k+</h2>
                   <h5 className="ttr-title">Satisfied Client</h5>
                   <p>
-                    Etiam ante ante, molestie vitae cursus ac, pharetra euismod
-                    libero.
+                  you can trusted us with their neurological care, including 60,000+ OPD visits, 20,000+ IPD treatments,and  EMG, EEG, and stroke thrombolysis.  
                   </p>
                 </div>
               </div>

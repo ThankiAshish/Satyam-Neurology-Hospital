@@ -8,6 +8,7 @@ import AppointmentSection from "../elements/appointment";
 import TestimonialSection from "../elements/testimonial";
 import ServicesSliderSection from "../elements/services-slider";
 import LatestNewsSection from "../elements/latest-news-slider";
+import Faq from "../elements/faq";
 
 function Index(){
 	
@@ -23,8 +24,8 @@ function Index(){
 			<AppointmentSection />
 			
 			<ServicesSliderSection />
-			
 			<TestimonialSection />
+			<Faq />
 			
 			{/* <LatestNewsSection /> */}
 			

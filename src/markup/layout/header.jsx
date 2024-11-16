@@ -139,7 +139,7 @@ const Header = () => {
 		// },
 		{
 			id: 'contactUs',
-			name: 'Book Appointment',
+			name: 'Contact us',
 			linkName: 'contact-us'
 		}
 	];

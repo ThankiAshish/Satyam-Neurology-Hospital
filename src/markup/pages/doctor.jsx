@@ -15,70 +15,31 @@ import teamMember3 from "../../images/team/member3.jpg";
 import teamMember4 from "../../images/team/member4.jpg";
 import teamMember5 from "../../images/team/member5.jpg";
 import teamMember6 from "../../images/team/member6.jpg";
-
+import aboutThumb1 from "../../images/about/dr13.webp";
+import aboutThumb2 from "../../images/about/doctor2.png";
 // Team Content
 const teamMembers = [
-	{ 
-		thumb: teamMember1,
-		title: "Dr. Addition Smith",		
-		subtitle: "Dentist",
-		socialMedia: [
-			{ platform: 'Twitter', link: 'https://twitter.com/' },
-			{ platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
-			{ platform: 'Instagram', link: 'https://www.instagram.com/' },
-		],
+	{
+	  name: "Dr. Prakash Bhatt",
+	  specialization: "DNB Neurology | DNB | MRCP | Director",
+	  image: aboutThumb2,
+	  socialMedia: [
+		{ platform: "Twitter", link: "https://twitter.com/" },
+		{ platform: "LinkedIn", link: "https://www.linkedin.com/" },
+		{ platform: "Instagram", link: "https://www.instagram.com/" },
+	  ],
 	},
-	{ 
-		thumb: teamMember2,
-		title: "Dr. Mahfuz Riad",		
-		subtitle: "Chiropractor",
-		socialMedia: [
-			{ platform: 'Twitter', link: 'https://twitter.com/' },
-			{ platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
-			{ platform: 'Instagram', link: 'https://www.instagram.com/' },
-		],
+	{
+	  name: "Dr. Kirti Jalela Bhatt",
+	  specialization: "M.B.B.S. | FCN",
+	  image: aboutThumb1,
+	  socialMedia: [
+		{ platform: "Twitter", link: "https://twitter.com/" },
+		{ platform: "LinkedIn", link: "https://www.linkedin.com/" },
+		{ platform: "Instagram", link: "https://www.instagram.com/" },
+	  ],
 	},
-	{ 
-		thumb: teamMember3,
-		title: "Dr. David Benjamin",		
-		subtitle: "Cardiologist",
-		socialMedia: [
-			{ platform: 'Twitter', link: 'https://twitter.com/' },
-			{ platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
-			{ platform: 'Instagram', link: 'https://www.instagram.com/' },
-		],
-	},
-	{ 
-		thumb: teamMember4,
-		title: "Dr. Addition Smith",		
-		subtitle: "Dentist",
-		socialMedia: [
-			{ platform: 'Twitter', link: 'https://twitter.com/' },
-			{ platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
-			{ platform: 'Instagram', link: 'https://www.instagram.com/' },
-		],
-	},
-	{ 
-		thumb: teamMember5,
-		title: "Dr. Mahfuz Riad",		
-		subtitle: "Chiropractor",
-		socialMedia: [
-			{ platform: 'Twitter', link: 'https://twitter.com/' },
-			{ platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
-			{ platform: 'Instagram', link: 'https://www.instagram.com/' },
-		],
-	},
-	{ 
-		thumb: teamMember6,
-		title: "Dr. David Benjamin",		
-		subtitle: "Cardiologist",
-		socialMedia: [
-			{ platform: 'Twitter', link: 'https://twitter.com/' },
-			{ platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
-			{ platform: 'Instagram', link: 'https://www.instagram.com/' },
-		],
-	},
-]
+  ];
 
 class Doctor extends Component{
 	
@@ -108,47 +69,53 @@ class Doctor extends Component{
 						</div>
 					</div>
 					
-					<section className="section-area section-sp1 team-wraper">
-						<div className="container">
-							<div className="row">
-								{teamMembers.map((teamMember, index) =>(
-									<div key={index} className="col-lg-4 col-sm-6">
-										<div className="team-member mb-30">
-											<div className="team-media">
-												<img src={teamMember.thumb} alt=""/>
-											</div>
-											<div className="team-info">
-												<div className="team-info-comntent">
-													<h4 className="title">{teamMember.title}</h4>
-													<span className="text-secondary">{teamMember.subtitle}</span>
-												</div>
-												<ul className="social-media mt-3">
-												{teamMember.socialMedia.map((social, index) => (
-													<li key={index}>
-														<a rel="noreferrer" target="_blank" href={social.link}>
-															<i className={`fab fa-${social.platform.toLowerCase()}`} />
-														</a>
-													</li>
-												))}
-											</ul>
-											</div>
-										</div>
-									</div>
-								))}
-							</div>
-						</div>
-						
-						<img className="pt-img1 animate1" src={trangleOrange} alt=""/>
-						
-						<img className="pt-img2 animate2" src={squareDotsOrange} alt=""/>
-						
-						<img className="pt-img3 animate-rotate" src={lineCircleBlue} alt=""/>
-						
-						<img className="pt-img4 animate-wave" src={waveBlue} alt=""/>
-						
-						<img className="pt-img5 animate-wave" src={plusBlue} alt=""/>
-						
-					</section>
+					<section className="section-area section-sp3 team-wraper">
+          <div className="container">
+            <div className="heading-bx text-center">
+              <h6 className="title-ext text-secondary">Our Doctor</h6>
+              <h2 className="title">Meet Best Doctors</h2>
+            </div>
+            <div className="row justify-content-center">
+              {teamMembers.map((teamMember, index) => (
+                <div key={index} className="col-lg-4 col-sm-6 mb-30">
+                  <div className="team-member">
+                    <div className="team-media">
+                      <img src={teamMember.image} alt={teamMember.name} />
+                    </div>
+                    <div className="team-info">
+                      <div className="team-info-content">
+                        <h4 className="title">{teamMember.name}</h4>
+                        <span className="text-secondary">
+                          {teamMember.specialization}
+                        </span>
+                      </div>
+                      <ul className="social-media mt-3">
+                        {teamMember.socialMedia.map((social, index) => (
+                          <li key={index}>
+                            <a
+                              rel="noreferrer"
+                              target="_blank"
+                              href={social.link}
+                            >
+                              <i
+                                className={`fab fa-${social.platform.toLowerCase()}`}
+                              />
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* <img className="pt-img1 animate1" src={ptImg1} alt="" />
+          <img className="pt-img2 animate2" src={ptImg2} alt="" />
+          <img className="pt-img3 animate-rotate" src={ptImg3} alt="" />
+          <img className="pt-img4 animate-wave" src={ptImg4} alt="" />
+          <img className="pt-img5 animate-wave" src={ptImg5} alt="" /> */}
+        </section>
 					
 				</div>
 				

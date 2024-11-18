@@ -49,7 +49,7 @@ class ServicesSliderSection extends Component{
 							<div className="heading-bx">
 								<h6 className="title-ext text-secondary">Services</h6>
 								<h2 className="title">We Cover A Big Variety Of Neurology Medical Services</h2>
-								<p>We provide the special tips and advice’s of heath care treatment and your problem related to the neural problems.</p>
+								<p>We provide special tips and advice on heath care treatment and your problem related to neural problems.</p>
 							</div>
 							<Link to="/services" className="btn btn-secondary btn-lg shadow">All Services</Link>
 						</div>

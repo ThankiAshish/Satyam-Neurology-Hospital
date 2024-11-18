@@ -4,7 +4,7 @@ import Sticky from 'react-stickynode';
 
 
 // Images
-import logo from '../../images/mainlogo.png';
+import logo from '../../images/mainlogonobg.png';
 import logoWhite from '../../images/logo1.png';
 
 const Header = () => {

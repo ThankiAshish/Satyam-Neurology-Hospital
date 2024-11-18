@@ -15,7 +15,7 @@ class aboutSection extends Component{
 				<section className="section-area section-sp5 work-area" style={{backgroundImage: "url("+bg1+")", backgroundRepeat:" no-repeat", backgroundPosition: "center", backgroundSize: "100%"}}>
 					<div className="container-sm">
 						<div className="heading-bx text-center">
-							<h6 className="title-ext header-text">Working Process</h6>
+							<h6 className="title-ext header-text">How do we work</h6>
 							<h2 className="title">How we works?</h2>
 						</div>
 						<div className="row justify-content-center">

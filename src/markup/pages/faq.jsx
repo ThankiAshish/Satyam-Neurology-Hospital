@@ -44,15 +44,15 @@ class Faq  extends Component{
 								<div className="col-lg-6">
 									<Accordion defaultActiveKey="0" className="accordion ttr-accordion1">
 										<Accordion.Item eventKey="0">
-											<Accordion.Header>Who is Dr. Prakash?</Accordion.Header>
+											<Accordion.Header>Who is Dr. Prakash Bhatt?</Accordion.Header>
 											<Accordion.Body>
 												<p className="mb-0">Dr. Prakash Bhatt is s a young and dynamic Neurologist in Bhavnagar. He completed his MD from Nazareth Hospital, Shillong, and his DNB in Neurology at Sahyadri Speciality Hospital. He manages Acute and Chronic Neurological Disorders, such as disorders of the Brain, Spine, Nerves and Muscles. Dr. Prakash is open-minded in his approach and utilises both traditional and non-traditional methods of care. Since beginning his practice, he has strived to go above and beyond, taking the time to get to the root of his patient’s problems to improve their quality of life.</p>
 											</Accordion.Body>
 										</Accordion.Item>
 										<Accordion.Item eventKey="1">
-											<Accordion.Header>Who is Dr. Kirti?</Accordion.Header>
+											<Accordion.Header>Who is Dr. Kirti Jalela Bhatt?</Accordion.Header>
 											<Accordion.Body>
-												<p className="mb-0">Dr Kirti Jalela Bhatt is a clinical neurophysiologist. She did her EMG fellowship from Bombay Hospital and Medical research centre, Mumbai, under the mentorship of esteemed neurophysiologist Dr Khushnuma Mansukhani. Subsequently she worked as a neurophysiologist in Bombay hospital, Mumbai. We have an International standard EMG machine. In our clinic, we ensure that all EMG and EP studies are done by Dr Kirti, not by technicians. Advantage of special training in this field is reflected in test results and proper treatment decisions.</p>
+												<p className="mb-0">Dr Kirti Jalela Bhatt is a clinical neurophysiologist. She did her EMG fellowship at Bombay Hospital and Medical Research Centre, Mumbai, under the mentorship of esteemed neurophysiologist Dr Khushnuma Mansukhani. Subsequently she worked as a neurophysiologist in Bombay Hospital, Mumbai. We have an International standard EMG machine. In our clinic, we ensure that all EMG and EP studies are done by Dr Kirti, not by technicians.The advantage of special training in this field is reflected in test results and proper treatment decisions.</p>
 											</Accordion.Body>
 										</Accordion.Item>
 										<Accordion.Item eventKey="2">

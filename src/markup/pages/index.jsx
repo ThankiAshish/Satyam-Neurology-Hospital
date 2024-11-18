@@ -7,7 +7,7 @@ import WorkSection from "../elements/work";
 import AppointmentSection from "../elements/appointment";
 import TestimonialSection from "../elements/testimonial";
 import ServicesSliderSection from "../elements/services-slider";
-import LatestNewsSection from "../elements/latest-news-slider";
+import LatestNewsSection from "../elements/feature-section3";
 import Faq from "../elements/faq";
 
 function Index(){
@@ -16,6 +16,7 @@ function Index(){
 		<>
 			
 			<MainBannerSection />
+			<LatestNewsSection />
 			
 			<AboutSection />
 			
@@ -27,7 +28,6 @@ function Index(){
 			<TestimonialSection />
 			<Faq />
 			
-			{/* <LatestNewsSection /> */}
 			
 		</>
 		

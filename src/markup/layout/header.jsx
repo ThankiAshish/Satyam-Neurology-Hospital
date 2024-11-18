@@ -79,11 +79,11 @@ const Header = () => {
 					displayName: 'Our doctors',
 					linkName: 'doctors'
 				},
-				{
-					id: 'faq',
-					displayName: "FAQ's",
-					linkName: 'faq'
-				},
+				// {
+				// 	id: 'faq',
+				// 	displayName: "FAQ's",
+				// 	linkName: 'faq'
+				// },
 				// {
 				// 	id: 'booking',
 				// 	displayName: 'Booking',

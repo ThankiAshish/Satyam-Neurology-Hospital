@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import Logo from '../../images/mainlogo.png';
+// import Logo from '../../images/mainlogo.png';
 import footerBg from '../../images/background/footer.jpg';
 import ptImg1 from '../../images/shap/wave-blue.png';
 import ptImg2 from '../../images/shap/circle-dots.png';
@@ -12,9 +12,11 @@ import ptImg4 from '../../images/shap/wave-blue.png';
 // Social Images
 import facebook from '../../images/social/facebook.png';
 import twitter from '../../images/social/twitter.png';
+import xlogo from '../../images/social/x.png';
 import instagram from '../../images/social/instagram.png';
 import linkedin from '../../images/social/linkedin.png';
-
+import justdial from '../../images/social/justdial-logo.png';
+import Logo from '../../images/mainlogonobg.png';
 class aboutSection extends Component{
 	render(){
 		return(
@@ -46,25 +48,25 @@ class aboutSection extends Component{
 									<div className="widget footer_widget ml-50">
 										<h3 className="footer-title">Quick Links</h3>
 										<ul>
-											<li><Link to="/about-us"><span>About Us</span></Link></li>
-											<li><Link to="/services"><span>Services</span></Link></li>
-											<li><Link to="/booking"><span>Booking</span></Link></li>
-											<li><Link to="/faq"><span>Faq's</span></Link></li>
-											<li><Link to="/team"><span>Out Team</span></Link></li>
+											<li><Link to="/"><span>Home</span></Link></li>
+											<li><Link to="/about-us"><span>About Us </span></Link></li>
+											<li><Link to="/doctors"><span>Doctors</span></Link></li>
+											<li><Link to="/contact-us"><span>Contact us</span></Link></li>
+											<li><Link href="https://book-appointment.healthplix.com/dr-dr-prakash-bhatt-panwadi-bhavnagar"><span>Booking </span></Link></li>
 										</ul>
 									</div>
 								</div>
 								<div className="col-xl-3 col-lg-3 col-6">
 									<div className="widget footer_widget">
-										{/* <h3 className="footer-title">Our Service</h3>
+										<h3 className="footer-title">Our Service</h3>
 										<ul>
-											<li><Link to="/service-detail"><span>Dental Care</span></Link></li>
-											<li><Link to="/service-detail"><span>Cardiac Clinic</span></Link></li>
-											<li><Link to="/service-detail"><span>Massege Therapy</span></Link></li>
-											<li><Link to="/service-detail"><span>Cardiology</span></Link></li>
-											<li><Link to="/service-detail"><span>Precise Diagnosis</span></Link></li>
-											<li><Link to="/service-detail"><span>Abmbulance Services</span></Link></li>
-										</ul> */}
+											<li><Link to="/service-detail"><span>EEG</span></Link></li>
+											<li><Link to="/service-detail"><span>NCS/EMG</span></Link></li>
+											<li><Link to="/service-detail"><span>BAEP</span></Link></li>
+											<li><Link to="/service-detail"><span>VEP</span></Link></li>
+											{/* <li><Link to="/service-detail"><span>Precise Diagnosis</span></Link></li>
+											<li><Link to="/service-detail"><span>Abmbulance Services</span></Link></li> */}
+										</ul>
 									</div>
 								</div>
 								<div className="col-xl-3 col-lg-3 col-md-6">
@@ -79,10 +81,11 @@ class aboutSection extends Component{
 										</form>
 										<div className="footer-social-link">
 											<ul>
-												<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={facebook} alt=""/></a></li>
-												<li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><img src={twitter} alt=""/></a></li>
-												<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><img src={instagram} alt=""/></a></li>
-												<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/"><img src={linkedin} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/SatyamNeurologyHospital.DrPrakashBhatt/"><img src={facebook} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><img style={{width: "27px"}} src={xlogo} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/satyam_neurology_hospital/"><img src={instagram} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/drprakashbhatt/?originalSubdomain=in"><img src={linkedin} alt=""/></a></li>
+												<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/drprakashbhatt/?originalSubdomain=in"><img style={{width: "50px"}} src={justdial} alt=""/></a></li>
 											</ul>
 										</div>
 									</div>

@@ -66,7 +66,7 @@ class AboutUs extends Component {
 
           <EligibilitySection />
 
-          <TeamSection />
+          {/* <TeamSection /> */}
 
           {/* <TestimonialSection /> */}
         </div>

@@ -41,6 +41,7 @@ class Markup extends Component{
 							<Route path='/about-us' element={<AboutUs />} />
 							<Route path='/doctors' element={<Doctor />} />
 							<Route path='/services' element={<Services />} />
+							<Route path="/services/:serviceId" element={<ServiceDetail />} />
 							<Route path='/service-detail' element={<ServiceDetail />} />
 							<Route path='/faq' element={<Faq />} />
 							<Route path='/contact-us' element={<ContactUs />} />

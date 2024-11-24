@@ -1,140 +1,113 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-// Elements
-import FeatureSection3 from "../elements/feature-section3";
-import TeamSection from "../elements/team";
-import LatestNewsSection from "../elements/latest-news-slider";
+// Images
+import eegImg from '../../images/services/eeg.png';
+import emgImg from '../../images/services/emg.jpg';
+import autonomicImg from '../../images/services/Autonomic Nervous system test.png';
+import plasmapharesisImg from '../../images/services/Plasmapharesis for Autoimmune Neurological disorders.jpg';
+import baepImg from '../../images/services/BAEP.jpg';
+import vepImg from '../../images/services/vep.jpg';
+import botoxImg from '../../images/services/Botox therapy in Neurology.jpg';
 
-import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/plus-blue.png";
+class Services extends Component {
+  // Array of service details
+  services = [
+    {
+      id: 1,
+      title: "EEG",
+      description: "EEG is a primary diagnostic tool for epilepsy and is also crucial in diagnosing other brain disorders.",
+      img: eegImg,
+        link: "/services/1"
+    },
+    {
+      id: 2,
+      title: "NCS/EMG",
+      description: "Electromyography (EMG), Nerve Conduction Studies (NCS), and Repetitive Nerve Stimulation (RNS) at Satyam Neurology Hospital.",
+      img: emgImg,
+      link: "/services/2"
+    },
+    {
+      id: 3,
+      title: "Autonomic Function Tests",
+      description: "Autonomic nervous system testing focuses on the nerve connections between the brain, heart, and other organs.",
+      img: autonomicImg,
+      link: "/services/3"
+    },
+    {
+      id: 4,
+      title: "Autoimmune Neurological Disorders",
+      description: "Who are suffering from various neurological disorders.",
+      img: plasmapharesisImg,
+      link: "/services/4"
+    },
+    {
+      id: 5,
+      title: "BAEP",
+      description: "A BAEP is an evoked potential caused by a sound, usually a series of 'clicks'.",
+      img: baepImg,
+      link: "/services/5"
+    },
+    {
+      id: 6,
+      title: "VEP",
+      description: "VEP is a procedure where electrical activity of the occipital area of the brain is recorded after visual stimuli.",
+      img: vepImg,
+      link: "/services/6"
+    },
+    {
+      id: 7,
+      title: "Botox Therapy in Neurology",
+      description: "Botulinum toxin therapy, also known as Botox, is a treatment that uses a muscle-relaxing agent.",
+      img: botoxImg,
+      link: "/services/7"
+    }
+  ];
 
-import eggimg from '../../images/services/eeg.png';
-import emgimg from '../../images/services/emg.jpg';
-import Autonomicimg from '../../images/services/Autonomic Nervous system test.png';
-import Plasmapharesis from '../../images/services/Plasmapharesis for Autoimmune Neurological disorders.jpg';
-import BAEPimg from '../../images/services/BAEP.jpg';
-import vepimg from '../../images/services/vep.jpg';
-import  Botoximg from '../../images/services/Botox therapy in Neurology.jpg';
+  render() {
+    return (
+      <div className="page-content bg-white">
+        <div className="banner-wraper">
+          <div className="page-banner">
+            <div className="container">
+              <div className="page-banner-entry text-center">
+                <h1>Our Services</h1>
+                <nav aria-label="breadcrumb" className="breadcrumb-row">
+                  <ul className="breadcrumb">
+                    <li className="breadcrumb-item">
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li className="breadcrumb-item active" aria-current="page">Services</li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
 
-class Services extends Component{
-	
-	render(){
-		return (
-			<>
-				
-				<div className="page-content bg-white">
-					
-					<div className="banner-wraper">
-						<div className="page-banner" >
-							<div className="container">
-								<div className="page-banner-entry text-center">
-									<h1>Services</h1>
-									<nav aria-label="breadcrumb" className="breadcrumb-row">
-										<ul className="breadcrumb">
-											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
-											<li className="breadcrumb-item active" aria-current="page">Services</li>
-										</ul>
-									</nav>
-								</div>
-							</div>
-							<img className="pt-img3 animate-rotate" src={plusBlue} alt=""/> */}
-						</div>
-					</div>
-					
-					<section className="section-area section-sp1">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature1">
-										<div className="feature-box-xl mb-30">
-												<img src={eggimg} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-										
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title">EEG</h3>
-											<p>EEG is a primary diagnostic tool for epilepsy and is also crucial in diagnosing other brain </p>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature2">
-										<div className="feature-box-xl mb-20">
-										<img src={emgimg} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-
-									
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title">NCS/EMG</h3>
-											<p>Electromyography (EMG), Nerve Conduction Studies (NCS), and Repetitive Nerve Stimulation (RNS)At Satyam Neurology Hospital</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature3">
-										<div className="feature-box-xl mb-20">
-										<img src={Autonomicimg} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title">Autonomic Function Tests</h3>
-											<p>Autonomic nervous system testing focuses on the nerve connections between the brain, heart and other organs.</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature1">
-										<div className="feature-box-xl mb-20">
-										<img src={Plasmapharesis} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title">Autoimmune Neurological disorders</h3>
-											<p> who are suffering from various neurological disorders</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature2">
-										<div className="feature-box-xl mb-20">
-										<img src={BAEPimg} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title">BAEP</h3>
-											<p>A BAEP is an evoked potential caused by a sound, usually a series of 'clicks'. Electrodes positioned on the scalp record responses to the sounds</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature2">
-										<div className="feature-box-xl mb-20">
-										<img src={vepimg} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title">VEP</h3>
-											<p>VEP is a procedure where electrical activity of occipital area of brain is recorded by electrode after visual stimuli. It is a simple test taking approx 40 mints.</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6 mb-30">
-								<div className="feature-container feature-bx2 feature2">
-										<div className="feature-box-xl mb-20">
-										<img src={Botoximg} alt="" className='servcesliderimg' style={{width: "100%" , height: "100%"}}/>
-										</div>
-										<div className="icon-content">
-											<h3 className="ttr-title"> Botox therapy in Neurology</h3>
-											<p>Botulinum toxin therapy, also known as Botox, is a treatment that uses a muscle-relaxing agent to treat a variety of neurological conditions</p>
-										</div>
-									</div>
-								</div>
-							</div>	
-						</div>
-					</section>
-				</div>
-			</>
-		);
-	}
+        <section className="section-area section-sp1">
+          <div className="container">
+            <div className="row">
+              {this.services.map(service => (
+                <div key={service.id} className="col-lg-4 col-md-6 mb-30">
+                  <div className="feature-container feature-bx2">
+                    <div className="feature-box-xl mb-30">
+                      <img src={service.img} alt={service.title} className='servcesliderimg' style={{ width: "100%", height: "130px" }} />
+                    </div>
+                    <div className="icon-content">
+                      <h3 className="ttr-title">{service.title}</h3>
+                      <p>{service.description}</p>
+                      <Link to={service.link} className="btn btn-primary">More</Link>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
 }
+
 export default Services;

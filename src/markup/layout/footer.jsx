@@ -33,7 +33,7 @@ class aboutSection extends Component{
 											<Link to="/"><img src={Logo} alt=""/></Link>
 										</div>
 										<div className="ft-contact">
-											<p>Total solution of your neural problems just visit the satyam and relax</p>
+											<p>The total solution to your neural problems. just, visit the Satyam and relax</p>
 											<div className="contact-bx">
 												<div className="icon"><i className="fas fa-phone-alt"></i></div>
 												<div className="contact-number">

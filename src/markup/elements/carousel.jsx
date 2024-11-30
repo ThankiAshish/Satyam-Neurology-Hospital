@@ -13,7 +13,7 @@ const doctors = [
   },
   {
     name: "Dr Kirti Jalela Bhatt",
-    title: "Best Neurophysiologist in Bhavnagar",
+    title: "Bhavnagar's 1st Electromyographer",
     description:
       "You can book an appointment for NCS/EMG for accurate diagnosis of neuromuscular disorders in Bhavnagar",
     image: Slide2,

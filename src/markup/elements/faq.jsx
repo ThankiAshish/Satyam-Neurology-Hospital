@@ -42,87 +42,107 @@ class Faq extends Component {
                 <h2 className="title m-b0">Frequently Asked Questions</h2>
               </div>
               <div className="row">
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="0" className="accordion ttr-accordion1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>Who is Dr. Prakash Bhatt?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Dr. Prakash Bhatt is s a young and dynamic Neurologist in Bhavnagar. He completed his MD from Nazareth Hospital, Shillong, and his DNB in Neurology at Sahyadri Speciality Hospital. He manages Acute and Chronic Neurological Disorders, such as disorders of the Brain, Spine, Nerves and Muscles. Dr. Prakash is open-minded in his approach and utilises both traditional and non-traditional methods of care. Since beginning his practice, he has strived to go above and beyond, taking the time to get to the root of his patient’s problems to improve their quality of life.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>Who is Dr. Kirti Jalela Bhatt?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Dr Kirti Jalela Bhatt is a clinical neurophysiologist. She did her EMG fellowship at Bombay Hospital and Medical Research Centre, Mumbai, under the mentorship of esteemed neurophysiologist Dr Khushnuma Mansukhani. Subsequently she worked as a neurophysiologist in Bombay Hospital, Mumbai. We have an International standard EMG machine. In our clinic, we ensure that all EMG and EP studies are done by Dr Kirti, not by technicians.The advantage of special training in this field is reflected in test results and proper treatment decisions.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>What service we provide at Satyam?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>When to see neuro doctor?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Your regular doctor may recommend that you see a neurologist if you have migraines or headaches, dizziness, vertigo, seizures, or other issues. Neurologists may check your mental status, speech, coordination, and reflexes. Come to Dr. Prakash, he will treat you in that conditions.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>We Teach You How To Feel Better?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="5">
-											<Accordion.Header>How Can I Contact Doctor?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="2" className="accordion ttr-accordion1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>How do I withdraw from a subject?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>What’s a payment statement?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>How Can I Contact You?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>How do I withdraw from a subject?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>Understand Doctor Before You Regret?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="5">
-											<Accordion.Header>How Doctor Can Ease Your Pain?</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-							</div>
+                <div className="col-lg-6">
+                  <Accordion
+                    defaultActiveKey="0"
+                    className="accordion ttr-accordion1"
+                  >
+                    <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                        When to visit a Neurologist?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <p className="mb-0">
+                          When you have a problem related to the brain, spinal
+                          cord, nerves, or muscles, you have to visit a
+                          neurologist.
+                        </p>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                      <Accordion.Header>
+                        What are common neurological disorders?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <p className="mb-0">
+                          Common neurological disorders are as follow:
+                          <br />
+                          <strong>Brain related:</strong> migraine (headache),
+                          vertigo, stroke (brain attack), epilepsy (seizure),
+                          Parkinson’s disease, Alzheimer disease (memory
+                          problem), meningitis or encephalitis (brain
+                          infection), multiple sclerosis
+                          <br />
+                          <strong>Spinal cord related:</strong> Myelopathy,
+                          radiculopathy
+                          <br />
+                          <strong>Nerves related:</strong> Guillain Barre
+                          syndrome (GBS), Sciatica, carpal tunnel syndrome,
+                          radial neuropathy, Neuropathy (abnormal body
+                          sensation)
+                          <br />
+                          <strong>Muscle related:</strong> Myopathy, weakness,
+                          Myasthenia gravis
+                        </p>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="2">
+                      <Accordion.Header>
+                        Why is it better to consult a neurologist for headache
+                        or migraine?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <p className="mb-0">
+                          To confirm your headache type like migraine, cluster
+                          headache, neuralgic pain etc.
+                          <br />
+                          Headache is mainly diagnosed by history, so you need a
+                          doctor who listens to you carefully.
+                          <br />
+                          As Migraine needs long term prophylactic medicines in
+                          a systematic manner.
+                        </p>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  </Accordion>
+                </div>
+                <div className="col-lg-6">
+                  <Accordion
+                    defaultActiveKey="2"
+                    className="accordion ttr-accordion1"
+                  >
+              
+                 
+       
+			  <Accordion.Item eventKey="4">
+                      <Accordion.Header>
+					  Why is it important to consult a neurologist on time for brain stroke?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <p className="mb-0">
+						Stroke causes permanent disability. Nowadays, if you reach a neurologist within 4.5 hours of stroke onset, you can get thrombolysis treatment which helps the patient for rapid recovery and minimize the brain damage.
+                        </p>
+                      </Accordion.Body>
+                    </Accordion.Item>
+          
+                    <Accordion.Item eventKey="5">
+                      <Accordion.Header>
+                        Is EMG/NCV a special test or anyone can do it?
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <p className="mb-0">
+                        EMG/NCV known as electromyography/nerve conduction study. Sometimes only NCV has been done, but to get complete information you need EMG study.
+						<br />
+It is better if your test is done by a neurologist or qualified electrophysiologist.
+<br />
+When a test is done by a neurologist or qualified electrophysiologist, they correlate your problem while they do the test and modify their protocol accordingly. So you can get a perfect result.
+                        </p>
+                      </Accordion.Body>
+                    </Accordion.Item>
+          
+                  </Accordion>
+                </div>
+              </div>
             </div>
           </section>
 

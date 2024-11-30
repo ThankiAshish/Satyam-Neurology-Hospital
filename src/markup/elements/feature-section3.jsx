@@ -12,7 +12,7 @@ class LatestNewsSection extends Component {
                   <h2 className="counter text-secondary">10+</h2>
                   <h5 className="ttr-title">Years With You</h5>
                   <p>
-                  With over a decade of dedicated service in neurology, our hospital has been a trusted provider of neurological care.
+                  With over a decade of dedicated service in neurology,Our hospital has been trusted to provider neurological care.
                   </p>
                 </div>
               </div>
@@ -36,10 +36,10 @@ class LatestNewsSection extends Component {
               </div>
               <div className="col-xl-3 col-sm-6 mb-30">
                 <div className="feature-container feature-bx3">
-                  <h2 className="counter text-secondary">100k+</h2>
+                  <h2 className="counter text-secondary">100K+</h2>
                   <h5 className="ttr-title">Satisfied Client</h5>
                   <p>
-                  you can trusted us with their neurological care, including 60,000+ OPD visits, 20,000+ IPD treatments,and  EMG, EEG, and stroke thrombolysis.  
+                  you can trusted us with their neurological care, including 60,000+ OPD visits, 20,000+ IPD treatments, EMG, EEG, and stroke thrombolysis.  
                   </p>
                 </div>
               </div>

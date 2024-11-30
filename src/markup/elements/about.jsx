@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
 // Import Images
-import aboutThumb1 from "../../images/about/dr13.webp";
+import aboutThumb1 from "../../images/about/dr13removebg.png";
 import aboutThumb2 from "../../images/about/doctor2.png";
 import aboutThumb3 from "../../images/about/pic-3.jpg";
+import logo from "../../images/mainlogonobg.png";
 
 class aboutSection extends Component {
   render() {
@@ -22,9 +23,11 @@ class aboutSection extends Component {
                       <img className="about-thumb2" src={aboutThumb2} alt="" />
                     </li>
                     <li>
-                      <img className="about-thumb3" src={aboutThumb3} alt="" />
+                    <img className="about-thumb3" src={logo}  alt="" />
+                      {/* <img className="about-thumb3" src={aboutThumb3} alt="" /> */}
                     </li>
                     <li>
+                   
                       <div className="exp-bx">
                         10<span>Year Experience</span>
                       </div>
@@ -148,12 +151,12 @@ class aboutSection extends Component {
                     </div>
                   </div>
                 </div>
-                <button
+                {/* <button
                   className="btn btn-primary shadow"
                   onClick={this.handleShowModal}
                 >
                   Read More
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

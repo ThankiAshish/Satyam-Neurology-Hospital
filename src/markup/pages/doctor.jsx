@@ -24,7 +24,7 @@ const teamMembers = [
 	  specialization: "DNB Neurology | DNB | MRCP | Director",
 	  image: aboutThumb2,
 	  socialMedia: [
-		{ platform: "Twitter", link: "https://twitter.com/" },
+		{ platform: "x-twitter", link: "https://twitter.com/" },
 		{ platform: "LinkedIn", link: "https://www.linkedin.com/" },
 		{ platform: "Instagram", link: "https://www.instagram.com/" },
 	  ],
@@ -34,7 +34,7 @@ const teamMembers = [
 	  specialization: "M.B.B.S. | FCN",
 	  image: aboutThumb1,
 	  socialMedia: [
-		{ platform: "Twitter", link: "https://twitter.com/" },
+		{ platform: "x-twitter", link: "https://twitter.com/" },
 		{ platform: "LinkedIn", link: "https://www.linkedin.com/" },
 		{ platform: "Instagram", link: "https://www.instagram.com/" },
 	  ],
@@ -97,9 +97,14 @@ class Doctor extends Component{
                               target="_blank"
                               href={social.link}
                             >
+								if (social.platform = "x-twitter") {
+								<p>x</p>	
+								}
+								else{
                               <i
                                 className={`fab fa-${social.platform.toLowerCase()}`}
                               />
+								}
                             </a>
                           </li>
                         ))}

@@ -30,11 +30,17 @@ class BackToTop extends Component{
 	render(){
 		return(
 			<>
-				{this.state.show && (
+            	{this.state.show && (
                     <button className="back-to-top" type="button" onClick={this.scrollToTop}>
 						<i className="fa fa-chevron-up"></i>
                     </button>
                 )}
+             <a href="tel:(+91)7984807991" className="back-to-whatsapp" >
+             <i className="fab fa-whatsapp  fa-2x"></i>
+            </a>
+            <a href="tel:(+91)7984807991" className="back-to-phone" >
+             <i className="fas fa-phone-alt fa-2x"></i>
+            </a>
 			</>
 		);
 	}

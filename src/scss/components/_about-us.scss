@@ -52,6 +52,7 @@
 	}
 	.about-thumb1{
 		border-radius: 0 60px 60px;
+		height: 256px;
 		margin-top: auto;
 		margin-left: auto;
 	}
@@ -64,6 +65,9 @@
 		border-radius: 60px 60px 60px 0;
 		margin-bottom: auto;
 		margin-left: auto;
+		height: 180px;
+		margin-top: 10px;
+		
 	}
 	.exp-bx{
 		background-color: $primary;
@@ -93,6 +97,7 @@
 			border:2px solid $primary;
 			border-radius: 60px 60px 0px 60px;
 			z-index:-1;
+			// background-image: url("../../images/mainlogo.png");
 		}
 	}
 	&:after{

@@ -40,7 +40,7 @@ class testimonialSection extends Component{
 						<div className="row align-items-center">
 							<div className="col-lg-6 text-center">
 								<div className="thumb-wraper">
-									<img className="bg-img" src={testShape} alt=""  style={{width: "436px"}} />
+									<img className="bg-img" src={testShape} alt=""  style={{padding:"20px ",width: "436px",}} />
 									<ul>
 										<li data-member="1"><Link to="https://maps.app.goo.gl/Zch5U6wJk4gvjhL2A"><img src={testPic1} alt=""/></Link></li>
 										<li data-member="2"><Link to="https://maps.app.goo.gl/CrqumfVaAhVZaqzU7"><img src={testPic2} alt=""/></Link></li>

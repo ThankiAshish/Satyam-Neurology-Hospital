@@ -15,6 +15,8 @@ import AboutUs from './pages/about-us';
 import Team from './pages/team';
 import Doctor from './pages/doctor';
 import Services from './pages/services';
+import Neurologyservices from './pages/Neurologyservices';
+import Neurodiagnosisservices from './pages/Neurodiagnosisservices';
 import ServiceDetail from './pages/service-detail';
 import FormLogin from './pages/form-login';
 import FormRegister from './pages/form-register';
@@ -41,6 +43,8 @@ class Markup extends Component{
 							<Route path='/about-us' element={<AboutUs />} />
 							<Route path='/doctors' element={<Doctor />} />
 							<Route path='/services' element={<Services />} />
+							<Route path='/Neurology' element={<Neurologyservices />} />
+							<Route path='/Neurodiagnosis' element={<Neurodiagnosisservices />} />
 							<Route path="/services/:serviceId" element={<ServiceDetail />} />
 							<Route path='/service-detail' element={<ServiceDetail />} />
 							<Route path='/faq' element={<Faq />} />

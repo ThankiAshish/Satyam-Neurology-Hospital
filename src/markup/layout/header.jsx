@@ -102,21 +102,26 @@ const Header = () => {
 			]
 		},
 		{
+			id: 'Blog',
+			name: 'Home',
+			linkName: '#',
+		},
+		{
 			id: 'services',
 			name: 'Services',
 			linkName: '',
 			
 			subItems: [
 				{
-					id: 'services',
-					displayName: 'Service',
-					linkName: 'services'
+					id: 'Neurology',
+					displayName: 'Neurology',
+					linkName: 'Neurology'
 				},
-				// {
-				// 	id: 'serviceDetail',
-				// 	displayName: 'Service Detail',
-				// 	linkName: 'service-detail'
-				// },
+				{
+					id: 'Neurodiagnosis',
+					displayName: 'Neurodiagnosis',
+					linkName: 'Neurodiagnosis'
+				},
 			]
 		},
 		// {
@@ -145,6 +150,7 @@ const Header = () => {
 	];
 	
 	return(
+		<div className="page-wraper">
 		<header className="header header-transparent rs-nav">
 			<Sticky enabled={true} className="sticky-header navbar-expand-lg">
 				<div className="menu-bar clearfix">
@@ -237,6 +243,7 @@ const Header = () => {
 			</div>
 			
 		</header>
+		</div>
 	
 	);
 }

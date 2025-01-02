@@ -38,8 +38,8 @@ class Faq extends Component {
           <section className="section-sp3">
             <div className="container">
               <div className="heading-bx text-center">
-                <h6 className="title-ext text-secondary">Faq</h6>
-                <h2 className="title m-b0">Frequently Asked Questions</h2>
+                {/* <h6 className="title-ext text-secondary">Faq</h6> */}
+                <h2 className="title title-animation-wave m-b0">Frequently Asked Questions</h2>
               </div>
               <div className="row">
                 <div className="col-lg-6">

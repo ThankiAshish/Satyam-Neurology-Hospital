@@ -605,11 +605,9 @@ const ServiceDetail = () => {
     },
   ];  
   const service = services.find((s) => s.id === parseInt(serviceId, 10));
-
   if (!service) {
     return <h2>Service not found</h2>;
   }
-
   return (
     <div className="page-content bg-white">
       <div className="banner-wrapper">

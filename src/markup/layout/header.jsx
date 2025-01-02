@@ -64,6 +64,11 @@ const Header = () => {
 			linkName: '#',
 		},
 		{
+			id: 'blog',
+			name: 'Blog',
+			linkName: 'blog-grid',
+		},
+		{
 			id: 'pages',
 			name: 'About',
 			linkName: '#',
@@ -101,11 +106,7 @@ const Header = () => {
 				// },
 			]
 		},
-		{
-			id: 'Blog',
-			name: 'Home',
-			linkName: '#',
-		},
+	
 		{
 			id: 'services',
 			name: 'Services',

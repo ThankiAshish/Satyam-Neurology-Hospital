@@ -156,9 +156,11 @@ class ContactUs extends Component {
                     <div className="icon-content">
                       <h5 className="ttr-title">Address</h5>
                       <p>
-                        201-205, 2nd Floor, Praradhya One Complex, Behind BIMS
-                        Hospital,Opposite Sir T Hospital, Jail Road, Bhavnagar -
-                        364001 (Gujarat)
+                      201-205, 2nd Floor, Praradhya
+                      One Complex, Near Aayush Plaza,
+                      Opp. Sir T Hospital, Jail
+                      Road, Bhavnagar-364001
+                      (Gujarat)
                       </p>
                     </div>
                   </div>
